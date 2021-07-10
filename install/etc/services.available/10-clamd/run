@@ -1,0 +1,12 @@
+#!/usr/bin/with-contenv bash
+
+source /assets/functions/00-container
+prepare_service defaults 10-clamav
+PROCESS_NAME="clamav"
+
+check_container_initialized
+check_service_initialized init
+liftoff
+
+print_info "Starting ClamAV"
+clamd --config-file "${CONFIG_LOCATION}""${CLAMD_CONFIG_FILE}" ${debug_arg}
