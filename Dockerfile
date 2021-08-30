@@ -1,4 +1,4 @@
-FROM ryanwclark/alpine:edge
+FROM ryanwclark/alpine:3.13
 LABEL maintainer="Ryan Clark (github.com/ryanwclark)"
 
 ### Disable Features From Base Image
