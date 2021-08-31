@@ -1,6 +1,5 @@
 # docker-clamav
 
-[![GitHub release](https://img.shields.io/github/v/tag/ryanwclark/docker-clamav?style=flat-square)](https://github.com/ryanwclark/docker-clamav/releases/latest)
 [![Build Status](https://img.shields.io/github/workflow/status/ryanwclark/docker-clamav/build?style=flat-square)](https://github.com/ryanwclark/docker-clamav/actions?query=workflow%3Abuild)
 [![Docker Stars](https://img.shields.io/docker/stars/ryanwclark/clamav.svg?style=flat-square&logo=docker)](https://hub.docker.com/r/ryanwclark/clamav/)
 [![Docker Pulls](https://img.shields.io/docker/pulls/ryanwclark/clamav.svg?style=flat-square&logo=docker)](https://hub.docker.com/r/ryanwclark/clamav/)
